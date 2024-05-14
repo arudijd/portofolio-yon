@@ -11,9 +11,9 @@
             </h1>
             <div class="mx-auto mt-20 flex max-w-screen-lg flex-col gap-10">
                <CardProjectBig
-                  v-for="i in 5"
-                  :key="i"
-                  v-bind="data.dataBigProject[0]"
+                  v-for="i in data.dataBigProject"
+                  :key="i.id"
+                  v-bind="i"
                />
             </div>
          </div>
@@ -21,51 +21,17 @@
    </div>
 </template>
 <script setup>
+import { getAllCaseDesign } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "default",
 });
 
 const data = reactive({
-   dataBigProject: [
-      {
-         id: "PRO001",
-         title: "Merancang Perhitungan Kalkulator Pajak Dengan Regulasi 2024",
-         projectName: "Taxkita",
-         year: "2024",
-         img: "taxkita-big",
-         url: "/case-design/taxkita",
-      },
-   ],
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-         url: "/case-design/araebook",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataBigProject: [],
+});
+
+onMounted(() => {
+   data.dataBigProject = getAllCaseDesign();
 });
 </script>

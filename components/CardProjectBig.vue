@@ -4,7 +4,7 @@
    >
       <img
          :src="imgUrl"
-         alt="Taxkita"
+         :alt="projectName"
          class="h-3/5 object-cover object-[0_20%]"
       />
       <div
@@ -12,19 +12,27 @@
       >
          <div class="flex h-full basis-1/2 flex-col justify-between">
             <h4 class="text-2xl font-semibold">
-               {{ props.title }}
+               {{ title }}
             </h4>
-            <p class="text-xl">{{ props.projectName }}</p>
+            <p class="text-xl">{{ projectName }}</p>
          </div>
          <div class="flex h-full basis-1/2 flex-col justify-between">
-            <p class="text-right text-2xl font-semibold">{{ props.year }}</p>
+            <p class="text-right text-2xl font-semibold">{{ year }}</p>
             <NuxtLink
+               v-if="url !== ''"
                :to="url"
                class="flex w-fit flex-row items-center justify-center gap-5 self-end rounded-full border-2 border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md transition duration-300 hover:shadow-none"
             >
                <p class="text-xl font-semibold">Detail</p>
                <Icon name="pajamas:arrow-right" size="1.5rem" />
             </NuxtLink>
+            <button
+               v-else
+               class="flex w-fit cursor-not-allowed flex-row items-center justify-center gap-5 self-end rounded-full border-2 border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md transition duration-300 hover:shadow-none"
+            >
+               <p class="text-xl font-semibold">Coming Soon</p>
+               <Icon name="solar:lock-bold" size="1.5rem" />
+            </button>
          </div>
       </div>
    </div>

@@ -2,25 +2,37 @@
    <div
       class="mx-auto flex h-[32.5rem] w-[29rem] flex-col overflow-clip rounded-2xl border-2 border-black bg-slate-100 shadow-brutalism-md transition-all duration-300 hover:shadow-none"
    >
-      <img :src="imgUrl" alt="Taxkita" class="h-1/2 object-cover object-top" />
+      <img
+         :src="imgUrl"
+         :alt="projectName"
+         class="h-1/2 object-cover object-top"
+      />
       <div
          class="flex h-1/2 flex-col justify-between gap-5 border-t-2 border-dashed border-black px-7 py-5"
       >
          <div class="flex flex-col gap-3">
-            <p class="text-2xl font-semibold">{{ props.year }}</p>
+            <p class="text-2xl font-semibold">{{ year }}</p>
             <h4 class="line-clamp-3 text-2xl font-medium">
-               {{ props.title }}
+               {{ title }}
             </h4>
          </div>
          <div class="flex flex-row justify-between">
-            <p class="basis-3/12 text-xl/[26px]">{{ props.projectName }}</p>
+            <p class="basis-3/12 text-xl/[26px]">{{ projectName }}</p>
             <NuxtLink
+               v-if="url !== ''"
                :to="url"
                class="flex w-fit flex-row items-center justify-center gap-5 self-end rounded-full border-2 border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md transition duration-300 hover:shadow-none"
             >
                <p class="text-xl font-semibold">Detail</p>
                <Icon name="pajamas:arrow-right" size="1.5rem" />
             </NuxtLink>
+            <button
+               v-else
+               class="flex w-fit cursor-not-allowed flex-row items-center justify-center gap-5 self-end rounded-full border-2 border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md transition duration-300 hover:shadow-none"
+            >
+               <p class="text-lg font-semibold">Coming soon</p>
+               <Icon name="solar:lock-bold" size="1.5rem" />
+            </button>
          </div>
       </div>
    </div>

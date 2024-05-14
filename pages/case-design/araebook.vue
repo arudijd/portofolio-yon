@@ -11,7 +11,7 @@
             </h1>
             <img
                src="~/assets/img/project-assets/araebook/AE-hero.png"
-               alt=""
+               alt="Ara eBook"
                class="mt-10 w-full object-cover object-center"
             />
             <div class="mt-14 grid grid-cols-2 gap-10">
@@ -84,7 +84,7 @@
                </p>
                <img
                   src="~/assets/img/project-assets/araebook/AE-1.png"
-                  alt=""
+                  alt="Overview Ara eBook"
                   class="w-[40%] object-contain"
                />
             </div>
@@ -174,22 +174,16 @@
                   <figure class="flex flex-col justify-between">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-2-1.png"
-                        alt=""
+                        alt="Survey Research"
                         class="object-contain"
                      />
-                     <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
-                     </figcaption>
                   </figure>
                   <figure class="flex flex-col justify-between">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-2-2.png"
-                        alt=""
+                        alt="FGD Research"
                         class="object-contain"
                      />
-                     <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
-                     </figcaption>
                   </figure>
                </div>
                <p>
@@ -255,10 +249,10 @@
                <figure class="mt-5">
                   <img
                      src="~/assets/img/project-assets/araebook/AE-3-1.png"
-                     alt=""
+                     alt="Userflow ARA eBook"
                   />
                   <figcaption class="mt-3 text-center italic text-slate-50">
-                     Image : User Flow TaxKita
+                     Image : Userflow ARA eBook
                   </figcaption>
                </figure>
             </div>
@@ -296,10 +290,10 @@
                   <figure class="">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-4-1.png"
-                        alt=""
+                        alt="Project Timeline"
                      />
                      <figcaption class="mt-3 text-center italic text-black">
-                        Image : User Flow TaxKita
+                        Image : Project Timeline
                      </figcaption>
                   </figure>
                </div>
@@ -337,19 +331,19 @@
                   <div class="grid grid-cols-3 justify-center gap-10">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-5-1.png"
-                        alt=""
+                        alt="Homepage Ara eBook"
                      />
                      <img
                         src="~/assets/img/project-assets/araebook/AE-5-2.png"
-                        alt=""
+                        alt="Homepage Ara eBook"
                      />
                      <img
                         src="~/assets/img/project-assets/araebook/AE-5-3.png"
-                        alt=""
+                        alt="Homepage Ara eBook"
                      />
                   </div>
-                  <figcaption class="mt-3 text-center italic text-black">
-                     Image : User Flow TaxKita
+                  <figcaption class="mt-5 text-center italic text-black">
+                     Image : Design homepage Ara eBook
                   </figcaption>
                </figure>
                <p>
@@ -376,41 +370,41 @@
                   <div class="grid grid-cols-7 justify-center gap-5">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-5-4.png"
-                        alt=""
+                        alt="Design Explore"
                         class="col-span-2 w-full object-contain"
                      />
                      <div class="col-span-3 flex flex-col justify-between">
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-5.png"
-                           alt=""
+                           alt="Design Explore"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-6.png"
-                           alt=""
+                           alt="Design Explore"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-7.png"
-                           alt=""
+                           alt="Design Explore"
                            class="w-full object-contain"
                         />
                      </div>
                      <div class="col-span-2 flex flex-col gap-5">
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-8.png"
-                           alt=""
+                           alt="Design Explore"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-9.png"
-                           alt=""
+                           alt="Design Explore"
                            class="w-full object-contain"
                         />
                      </div>
                   </div>
                   <figcaption class="mt-3 text-center italic text-black">
-                     Image : User Flow TaxKita
+                     Image : Design Explore
                   </figcaption>
                </figure>
                <p>
@@ -428,24 +422,24 @@
                   <div class="flex flex-row justify-center gap-5">
                      <img
                         src="~/assets/img/project-assets/araebook/AE-5-10.png"
-                        alt=""
+                        alt="Design page DetaiL Book"
                         class="h-[765px] object-contain"
                      />
                      <div class="flex w-[500px] flex-col gap-5">
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-11.png"
-                           alt=""
+                           alt="Design page DetaiL Book"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-12.png"
-                           alt=""
+                           alt="Design page DetaiL Book"
                            class="w-full object-contain"
                         />
                      </div>
                   </div>
                   <figcaption class="mt-3 text-center italic text-black">
-                     Image : User Flow TaxKita
+                     Image : Design page DetaiL Book
                   </figcaption>
                </figure>
                <p>
@@ -463,40 +457,40 @@
                      <div class="relative grid grid-cols-2 gap-16">
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-13.png"
-                           alt=""
+                           alt="Page Checkout Processed"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-14.png"
-                           alt=""
+                           alt="Page Checkout Processed"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-arrow-13-to-14.png"
-                           alt=""
+                           alt="Arrow"
                            class="absolute left-1/2 top-1/2 w-20 -translate-x-[60%] object-contain"
                         />
                      </div>
                      <div class="relative grid grid-cols-2 gap-16">
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-15.png"
-                           alt=""
+                           alt="Page Checkout Processed"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-5-16.png"
-                           alt=""
+                           alt="Page Checkout Processed"
                            class="w-full object-contain"
                         />
                         <img
                            src="~/assets/img/project-assets/araebook/AE-arrow-13-to-14.png"
-                           alt=""
+                           alt="Arrow"
                            class="absolute left-1/2 top-1/2 w-20 -translate-x-[60%] object-contain"
                         />
                      </div>
                   </div>
                   <figcaption class="mt-3 text-center italic text-black">
-                     Image : User Flow TaxKita
+                     Image : Page Checkout Processed
                   </figcaption>
                </figure>
                <p>
@@ -509,11 +503,11 @@
                <figure class="">
                   <img
                      src="~/assets/img/project-assets/araebook/AE-5-17.png"
-                     alt=""
+                     alt="Page Dashboard"
                      class="w-full object-contain"
                   />
                   <figcaption class="mt-3 text-center italic text-black">
-                     Image : User Flow TaxKita
+                     Image : Page Dashboard
                   </figcaption>
                </figure>
             </div>
@@ -632,39 +626,16 @@
    </div>
 </template>
 <script setup>
+import { getRandomProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "project",
 });
 const data = reactive({
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: [],
+});
+
+onMounted(() => {
+   data.dataSmallProject = getRandomProject();
 });
 </script>

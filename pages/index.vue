@@ -47,12 +47,14 @@
                      UI/UX Designer.<br />
                      <br />
                   </p>
-                  <button
+                  <a
+                     href="https://drive.google.com/drive/folders/1CNTZgY-H-stcYHo_2yBFzRHXLr7kImJb"
+                     target="_blank"
                      class="flex flex-row gap-5 self-end rounded-full border-2 border-white px-5 py-3 shadow-brutalism-md shadow-white transition duration-300 hover:shadow-none"
                   >
                      <Icon name="ion:document-text-outline" size="1.5rem" />
                      <p class="text-xl">Download My Resume</p>
-                  </button>
+                  </a>
                </div>
             </div>
          </div>
@@ -180,64 +182,28 @@
             >
                I am always open for a new opportunities. Let's Talk!
             </h1>
-            <button
-               class="mx-auto mt-10 flex flex-row items-center gap-3 rounded-full border border-black bg-[#FB7DA8] px-5 py-3 shadow-brutalism-md"
+            <a
+               href="https://bento.me/yonsafira"
+               target="_blank"
+               class="mx-auto mt-10 flex w-fit flex-row items-center gap-3 rounded-full border border-black bg-[#FB7DA8] px-5 py-3 shadow-brutalism-md transition-shadow duration-300 hover:shadow-none"
             >
                <p class="text-2xl font-medium">bento.me/yonsafira</p>
                <Icon name="iconamoon:arrow-right-2-light" size="2rem" />
-            </button>
+            </a>
          </div>
       </section>
    </div>
 </template>
 <script setup>
 import "vue3-carousel/dist/carousel.css";
+import {
+   getCertainCaseDesign,
+   getCertainProject,
+} from "~/assets/utils/local-data";
 
 const data = reactive({
-   dataBigProject: [
-      {
-         id: "PRO001",
-         title: "Merancang Perhitungan Kalkulator Pajak Dengan Regulasi 2024",
-         projectName: "Taxkita",
-         year: "2024",
-         img: "taxkita-big",
-         url: "/case-design/taxkita",
-      },
-   ],
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-         url: "/case-design/araebook",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-         url: "/case-design/pintu-kita",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-         url: "/",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-         url: "/",
-      },
-   ],
+   dataBigProject: getCertainCaseDesign(["CD001"]),
+   dataSmallProject: getCertainProject(["PRO001", "PRO002"]),
    workStory: [
       {
          id: "WOR001",

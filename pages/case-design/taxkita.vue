@@ -11,7 +11,7 @@
             </h1>
             <img
                src="~/assets/img/project-assets/taxkita/TK-hero.png"
-               alt=""
+               alt="Taxkita"
                class="mt-10 w-full object-cover object-center"
             />
             <div class="mt-14 grid grid-cols-2 gap-10">
@@ -60,14 +60,14 @@
             </h4>
             <div class="mt-10 flex flex-row gap-10">
                <p class="basis-[52%]">
-                  TaxKita merupakan website yang menjadi wadah informasi seputar
-                  pajak. terdapat informasi perpajakan, konsultasi perpajakan,
-                  dan penghitungan pajak yang dapat dilakukan oleh perorangan
-                  maupun perusahaan. Saat ini TaxKita masih dalam proses
-                  pengembangan dan akan segera dirilis. Untuk fitur konsultasi
-                  pajak sementar masih di hold terlebih dahulu, dan fitur utama
-                  penghitungan pajak atau kalkulator pajak sedang di kembangkan
-                  dalam prosesnya.<br /><br />
+                  <b>TaxKita</b> merupakan website yang menjadi wadah informasi
+                  seputar pajak. terdapat informasi perpajakan, konsultasi
+                  perpajakan, dan penghitungan pajak yang dapat dilakukan oleh
+                  perorangan maupun perusahaan. Saat ini TaxKita masih dalam
+                  proses pengembangan dan akan segera dirilis. Untuk fitur
+                  konsultasi pajak sementar masih di hold terlebih dahulu, dan
+                  fitur utama penghitungan pajak atau kalkulator pajak sedang di
+                  kembangkan dalam prosesnya.<br /><br />
 
                   Produk tersebut merupakan produk dari YR Consultindo
                   perusahaan baru yang bergerak dibidang konsultasi seputar
@@ -84,7 +84,7 @@
                </p>
                <img
                   src="~/assets/img/project-assets/taxkita/TK-1.png"
-                  alt=""
+                  alt="Overview Taxkita"
                   class="w-[45%]"
                />
             </div>
@@ -121,9 +121,10 @@
                      <br />
 
                      Pada pengembangannya TaxKita merupakan Website/Aplikasi
-                     berbasis SAS (Statistical Analysis System) dimana hampir
-                     setengah bahkan sebagian besar fiturnya adalah Dashboard
-                     untuk keperluan pajak khususnya pajak dengan regulasi 2024.
+                     berbasis SAS <i>(Statistical Analysis System)</i> dimana
+                     hampir setengah bahkan sebagian besar fiturnya adalah
+                     Dashboard untuk keperluan pajak khususnya pajak dengan
+                     regulasi 2024.
                   </p>
                </div>
                <div class="flex flex-col gap-2">
@@ -146,7 +147,7 @@
                <figure>
                   <img
                      src="~/assets/img/project-assets/taxkita/TK-2-1.png"
-                     alt=""
+                     alt="User Flow Taxkita"
                   />
                   <figcaption class="mt-3 text-center italic">
                      Image : User Flow TaxKita
@@ -155,10 +156,10 @@
                <figure class="mt-5">
                   <img
                      src="~/assets/img/project-assets/taxkita/TK-2-2.png"
-                     alt=""
+                     alt="Flow Garis Besar Taxkita"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Flow Garis Besar Taxkita
                   </figcaption>
                </figure>
             </div>
@@ -219,21 +220,21 @@
                   <figure class="">
                      <img
                         src="~/assets/img/project-assets/taxkita/TK-3-1.png"
-                        alt=""
+                        alt="Fitur Kalkulator Pajak (Sebelumnya)"
                         class="h-[550px] object-contain"
                      />
                      <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
+                        Image : Fitur Kalkulator Pajak (Sebelumnya)
                      </figcaption>
                   </figure>
                   <figure class="">
                      <img
                         src="~/assets/img/project-assets/taxkita/TK-3-2.png"
-                        alt=""
+                        alt="Fitur Kalkulator Pajak (Sekarang)"
                         class="h-[550px] object-contain"
                      />
                      <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
+                        Image : Fitur Kalkulator Pajak (Sekarang)
                      </figcaption>
                   </figure>
                </div>
@@ -253,10 +254,10 @@
                <figure class="mt-5">
                   <img
                      src="~/assets/img/project-assets/taxkita/TK-3-3.png"
-                     alt=""
+                     alt="Fitur PPh 21 Ter 2024"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Fitur PPh 21 Ter 2024
                   </figcaption>
                </figure>
                <p>
@@ -273,10 +274,10 @@
                <figure class="mt-5">
                   <img
                      src="~/assets/img/project-assets/taxkita/TK-3-4.png"
-                     alt=""
+                     alt="Fitur Kalkulator Pajak"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Fitur Kalkulator Pajak
                   </figcaption>
                </figure>
                <p>
@@ -307,26 +308,26 @@
                   <figure class="">
                      <img
                         src="~/assets/img/project-assets/taxkita/TK-3-5.png"
-                        alt=""
+                        alt="Lapor Pajak"
                         class="h-[550px] object-contain"
                      />
-                     <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
+                     <figcaption class="text-center italic">
+                        Image : Lapor Pajak
                      </figcaption>
                   </figure>
                   <figure class="">
                      <img
                         src="~/assets/img/project-assets/taxkita/TK-3-6.png"
-                        alt=""
+                        alt="Data Karyawan"
                         class="h-[550px] object-contain"
                      />
-                     <figcaption class="mt-3 text-center italic">
-                        Image : User Flow TaxKita
+                     <figcaption class="text-center italic">
+                        Image : Data Karyawan
                      </figcaption>
                   </figure>
                   <img
                      src="~/assets/img/project-assets/taxkita/TK-arrow-5-to-6.png"
-                     alt=""
+                     alt="Arrow Penunjuk"
                      class="absolute left-[25.5rem] top-60 w-48"
                   />
                </div>
@@ -349,9 +350,22 @@
                      designer saya tidak terlalu banyak melakukan perubahan
                      design atau bahkan tidak melakukan perubahan apapun karena
                      permasalahan tersebut terdapat pada Developer.<br /><br />
-
-                     Visit : https://taxkita.id/
                   </p>
+               </div>
+               <div class="mx-auto w-full max-w-screen-xl">
+                  <h1
+                     class="mx-auto w-3/4 text-center text-2xl font-semibold text-[#034B73]"
+                  >
+                     Visit Website
+                  </h1>
+                  <a
+                     href="https://taxkita.id/"
+                     target="_blank"
+                     class="mx-auto mt-2 flex w-fit flex-row items-center gap-3 rounded-full border border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md"
+                  >
+                     <p class="text-xl/[26px] font-medium">taxkita.id/</p>
+                     <Icon name="bi:arrow-right" size="1.5rem" />
+                  </a>
                </div>
                <h4 class="text-2xl font-semibold text-[#034B73]">
                   Thanks for Reading!
@@ -390,41 +404,17 @@
    </div>
 </template>
 <script setup>
+import { getRandomProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "project",
 });
 
 const data = reactive({
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-         url: "/case-design/araebook",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: [],
+});
+
+onMounted(() => {
+   data.dataSmallProject = getRandomProject();
 });
 </script>

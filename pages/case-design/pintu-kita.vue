@@ -11,7 +11,7 @@
             </h1>
             <img
                src="~/assets/img/project-assets/pintu-kita/PK-hero.png"
-               alt=""
+               alt="Pintu Kita"
                class="mt-10 w-full object-cover object-center"
             />
             <div class="mt-14 grid grid-cols-2 gap-10">
@@ -85,11 +85,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-1.png"
-                     alt=""
+                     alt="Kompetitor dari Pintu Kita"
                      class="object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Finding kompetitor analisis beberapa course
                   </figcaption>
                </figure>
             </div>
@@ -111,11 +111,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-2-1.png"
-                     alt=""
+                     alt="Workflow Pintu Kita"
                      class="object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Workflow dari Project Developing PintuKita
                   </figcaption>
                </figure>
                <div class="flex flex-col gap-2">
@@ -175,21 +175,21 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-2-2.png"
-                     alt=""
+                     alt="User flow Live class"
                      class="object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : User flow Live class
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-2-3.png"
                      alt=""
-                     class="object-contain"
+                     class="User flow Video learning"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : User flow Video learning
                   </figcaption>
                </figure>
             </div>
@@ -223,11 +223,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-3-1.png"
-                     alt=""
+                     alt="Homepage Pintu Kita phase 1"
                      class="object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Homepage Pintu Kita phase 1
                   </figcaption>
                </figure>
                <div class="flex flex-col gap-2">
@@ -248,11 +248,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-3-2.png"
-                     alt=""
+                     alt="Homepage Pintu Kita phase 2"
                      class="object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Homepage Pintu Kita phase 2
                   </figcaption>
                </figure>
                <div class="flex flex-col gap-2">
@@ -279,12 +279,9 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/pintu-kita/PK-3-3.png"
-                     alt=""
+                     alt="Color Palette Pintu Kita"
                      class="object-contain"
                   />
-                  <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
-                  </figcaption>
                </figure>
                <div class="flex flex-col gap-2">
                   <h5 class="text-xl/[26px] font-semibold text-[#034B73]">
@@ -313,18 +310,15 @@
                   >
                      <img
                         src="~/assets/img/project-assets/pintu-kita/PK-3-4.png"
-                        alt=""
+                        alt="Live Class Pintu Kita"
                         class="h-[900px] w-fit self-center object-contain"
                      />
                      <img
                         src="~/assets/img/project-assets/pintu-kita/PK-3-5.png"
-                        alt=""
+                        alt="Live Class Pintu Kita"
                         class="h-[900px] w-fit self-center object-contain"
                      />
                   </div>
-                  <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
-                  </figcaption>
                </figure>
             </div>
          </div>
@@ -360,39 +354,17 @@
    </div>
 </template>
 <script setup>
+import { getRandomProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "project",
 });
+
 const data = reactive({
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: [],
+});
+
+onMounted(() => {
+   data.dataSmallProject = getRandomProject();
 });
 </script>

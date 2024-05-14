@@ -23,51 +23,13 @@
    </div>
 </template>
 <script setup>
+import { getAllProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "default",
 });
 
 const data = reactive({
-   dataBigProject: [
-      {
-         id: "PRO001",
-         title: "Merancang Perhitungan Kalkulator Pajak Dengan Regulasi 2024",
-         projectName: "Taxkita",
-         year: "2024",
-         img: "taxkita-big",
-         url: "/case-design/taxkita",
-      },
-   ],
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-         url: "/case-design/araebook",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: getAllProject(),
 });
 </script>

@@ -12,7 +12,7 @@
             </h1>
             <img
                src="~/assets/img/project-assets/ke-museum/KM-hero.png"
-               alt=""
+               alt="KeMuseum"
                class="mt-10 w-full object-cover object-center"
             />
             <div class="mt-14 grid grid-cols-2 gap-10">
@@ -67,7 +67,7 @@
                   </p>
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-1.png"
-                     alt=""
+                     alt="Overview KeMuseum"
                      class="w-[40%] object-contain"
                   />
                </div>
@@ -90,7 +90,7 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-2-1.png"
-                     alt=""
+                     alt="Design Thinking"
                      class="mx-auto w-3/4 object-contain"
                   />
                </figure>
@@ -274,11 +274,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-3-1.png"
-                     alt=""
+                     alt="Hasil Google Maps Review"
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Hasil Google Maps Review
                   </figcaption>
                </figure>
                <p>
@@ -291,11 +291,12 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-3-2.png"
-                     alt=""
+                     alt="Tabel Informasi mengenai aplikasi penyedia informasi museum dan ticket"
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Tabel Informasi mengenai aplikasi penyedia
+                     informasi museum dan ticket
                   </figcaption>
                </figure>
                <p>
@@ -331,11 +332,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-4-1.png"
-                     alt=""
+                     alt="User Pesona KeMuseum"
                      class="mx-auto w-3/5 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : User Pesona KeMuseum
                   </figcaption>
                </figure>
                <p>
@@ -346,11 +347,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-4-2.png"
-                     alt=""
+                     alt="POV"
                      class="mx-auto w-3/5 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : POV
                   </figcaption>
                </figure>
                <div>
@@ -429,11 +430,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-5-1.png"
-                     alt=""
+                     alt="Flow Chart KeMuseum"
                      class="mx-auto w-4/5 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Flow Chart KeMuseum
                   </figcaption>
                </figure>
                <div class="flex flex-col gap-2">
@@ -451,21 +452,21 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-5-2.png"
-                     alt=""
+                     alt="Wireframe & Wireflow KeMuseum"
                      class="mx-auto w-full object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Wireframe & Wireflow KeMuseum
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-5-3.png"
-                     alt=""
+                     alt="Wireframe & Wireflow KeMuseum"
                      class="mx-auto w-3/4 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Wireframe & Wireflow KeMuseum
                   </figcaption>
                </figure>
                <p>
@@ -501,11 +502,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-1.png"
-                     alt=""
+                     alt="Color & Thypograph"
                      class="mx-auto w-4/5 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Color & Thypograph
                   </figcaption>
                </figure>
                <p>
@@ -535,61 +536,61 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-2.png"
-                     alt=""
+                     alt="Splash Screen"
                      class="mx-auto w-2/3 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Splash Screen
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-3.png"
-                     alt=""
+                     alt="Login & Profile"
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Login & Profile
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-4.png"
-                     alt=""
+                     alt="Main Screen"
                      class="mx-auto w-1/5 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Main Screen
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-5.png"
-                     alt=""
+                     alt="Information & Gallery"
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Information & Gallery
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-6.png"
-                     alt=""
+                     alt="Maps Route"
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Maps Route
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-6-7.png"
-                     alt=""
+                     alt="Maps Route"
                      class="mx-auto w-3/4 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Maps Route
                   </figcaption>
                </figure>
             </div>
@@ -671,11 +672,11 @@
                <figure class="mt-10 flex flex-col justify-between">
                   <img
                      src="~/assets/img/project-assets/ke-museum/KM-7-1.png"
-                     alt=""
+                     alt="Feedback Capture Grid"
                      class="mx-auto w-5/6 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Feedback Capture Grid
                   </figcaption>
                </figure>
                <p>
@@ -718,39 +719,17 @@
    </div>
 </template>
 <script setup>
+import { getRandomProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "project",
 });
+
 const data = reactive({
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: [],
+});
+
+onMounted(() => {
+   data.dataSmallProject = getRandomProject();
 });
 </script>
