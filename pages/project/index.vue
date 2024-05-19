@@ -7,7 +7,7 @@
             class="mx-auto min-h-screen w-full max-w-screen-xl bg-[url('~/assets/img/bg-frame-pattern-slate.svg')] bg-top bg-no-repeat px-16 py-6"
          >
             <h1 class="mx-auto w-3/5 text-center text-[44px]/[58px] font-bold">
-               Pengalaman Membeli & Membaca Buku Secara Digital
+               Here's some project that I've been working on so far
             </h1>
             <div
                class="mx-auto mt-10 grid w-full max-w-screen-lg grid-cols-2 items-center gap-10"

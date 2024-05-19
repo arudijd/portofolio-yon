@@ -404,7 +404,7 @@
    </div>
 </template>
 <script setup>
-import { getRandomProject } from "~/assets/utils/local-data";
+import { getRandomCaseDesign } from "~/assets/utils/local-data";
 
 definePageMeta({
    layout: "project",
@@ -415,6 +415,6 @@ const data = reactive({
 });
 
 onMounted(() => {
-   data.dataSmallProject = getRandomProject();
+   data.dataSmallProject = getRandomCaseDesign();
 });
 </script>

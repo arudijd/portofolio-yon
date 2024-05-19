@@ -31,7 +31,7 @@
          class="fixed left-1/2 top-5 z-20 flex -translate-x-1/2 flex-row items-center gap-20 rounded-full border-2 border-black bg-[#FFC567] px-10 py-5 shadow-brutalism-md"
       >
          <NuxtLink class="text-2xl" to="/case-design">Case Design</NuxtLink>
-         <NuxtLink class="text-2xl" to="/">Work</NuxtLink>
+         <NuxtLink class="text-2xl" to="/work">Work</NuxtLink>
          <NuxtLink class="text-2xl" to="/project">Project</NuxtLink>
       </div>
       <div>

@@ -5,9 +5,26 @@
       >
          <div class="mx-auto flex w-full max-w-screen-xl flex-col gap-20">
             <div
-               class="flex min-h-[320px] w-full items-center justify-center rounded-full bg-[url('~/assets/img/bg-box-pattern.png')] p-10"
+               class="relative min-h-[320px] w-full rounded-full bg-[url('~/assets/img/bg-box-pattern.png')] p-10"
             >
-               <img src="~/assets/img/hero.png" alt="" />
+               <img
+                  ref="yon"
+                  src="~/assets/img/yon.png"
+                  alt="Yon"
+                  class="yon"
+               />
+               <img
+                  ref="designer"
+                  src="~/assets/img/designer.png"
+                  alt="Designer"
+                  class="designer"
+               />
+               <div
+                  class="relative z-10 flex w-full flex-row items-center justify-center gap-10"
+               >
+                  <img src="~/assets/img/hero.png" alt="Hero" />
+                  <img src="~/assets/img/title-hero.png" alt="Title Hero" />
+               </div>
             </div>
             <div
                class="mx-auto flex max-w-screen-lg flex-row rounded-3xl bg-[#000A0F] px-12 py-14 text-white"
@@ -309,6 +326,9 @@ const data = reactive({
 });
 
 const backgroundState = ref("work-story");
+
+const yon = ref(null);
+const designer = ref(null);
 </script>
 <style scoped>
 .fade-enter-active,
@@ -320,5 +340,19 @@ const backgroundState = ref("work-story");
 .fade-leave-to {
    opacity: 0;
    transform: translateX(-30px);
+}
+
+.yon {
+   position: absolute;
+   left: 46%;
+   top: 48px;
+   z-index: 0;
+}
+
+.designer {
+   position: absolute;
+   left: 45%;
+   bottom: 20px;
+   z-index: 0;
 }
 </style>
