@@ -46,6 +46,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACTION_DEPLOY_ACCESS_TOKEN }}
           publish_branch: gh-pages  # Branch yang digunakan untuk GitHub Pages
           publish_dir: ./dist  # Direktori yang akan di-deploy
