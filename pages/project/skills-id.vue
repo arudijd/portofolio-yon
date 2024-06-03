@@ -85,7 +85,7 @@
                      class="mx-auto w-3/4 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Homepage skills.id
                   </figcaption>
                </figure>
                <div class="mx-auto w-full max-w-screen-xl">
@@ -94,12 +94,14 @@
                   >
                      Visit Website
                   </h1>
-                  <button
-                     class="mx-auto mt-2 flex flex-row items-center gap-3 rounded-full border border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md"
+                  <a
+                     href="https://skills.id/"
+                     target="_blank"
+                     class="mx-auto mt-2 flex w-fit flex-row items-center gap-3 rounded-full border border-black bg-[#FFC567] px-5 py-3 shadow-brutalism-md"
                   >
                      <p class="text-xl/[26px] font-medium">skills.id</p>
                      <Icon name="bi:arrow-right" size="1.5rem" />
-                  </button>
+                  </a>
                </div>
             </div>
          </div>
@@ -135,39 +137,17 @@
    </div>
 </template>
 <script setup>
+import { getRandomProject } from "~/assets/utils/local-data";
+
 definePageMeta({
    layout: "project",
 });
+
 const data = reactive({
-   dataSmallProject: [
-      {
-         id: "PRO002",
-         title: "Menciptakan Pengalaman menyenangkan dalam Membaca & Membeli Buku dengan Fleksibilitas",
-         projectName: "Ara ebook",
-         year: "2023",
-         img: "araebook-small",
-      },
-      {
-         id: "PRO003",
-         title: "Mekanisme Belajar Yang Efektif Serta Menciptakan Interaksi Dalam Belajar",
-         projectName: "Pintu Kita",
-         year: "2023",
-         img: "pintukita-small",
-      },
-      {
-         id: "PRO004",
-         title: "Belajar Bahasa Korea, Hingga Kesempatan Pergi Ke Korea",
-         projectName: "Oppa Akademi",
-         year: "2023",
-         img: "oa-small",
-      },
-      {
-         id: "PRO005",
-         title: "Solusi Hukum Tanpa Ribet Layanan Konsultasi Hukum Online Yang Cepat & Tepat",
-         projectName: "YR Consultindo",
-         year: "2023",
-         img: "yr-small",
-      },
-   ],
+   dataSmallProject: [],
+});
+
+onMounted(() => {
+   data.dataSmallProject = getRandomProject();
 });
 </script>
