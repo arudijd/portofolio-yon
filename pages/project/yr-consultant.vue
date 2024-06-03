@@ -78,7 +78,7 @@
                      class="mx-auto w-3/4 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Landing page YR Consultindo
                   </figcaption>
                </figure>
                <div class="mx-auto w-full max-w-screen-xl">

@@ -82,7 +82,7 @@
                      class="mx-auto w-3/4 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Page kelas online, offline hingga video
                   </figcaption>
                </figure>
                <figure class="mt-10 flex flex-col justify-between">
@@ -92,7 +92,7 @@
                      class="mx-auto w-1/2 object-contain"
                   />
                   <figcaption class="mt-3 text-center italic">
-                     Image : User Flow TaxKita
+                     Image : Page Store, Homepage & Kelas offline
                   </figcaption>
                </figure>
                <p>

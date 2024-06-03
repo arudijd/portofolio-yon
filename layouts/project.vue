@@ -25,7 +25,7 @@
                />
             </svg>
          </NuxtLink>
-         <h1 class="text-2xl font-semibold">Jakarta, ID</h1>
+         <h1 class="text-2xl font-semibold text-white">Jakarta, ID</h1>
       </div>
       <div
          class="fixed left-1/2 top-5 z-20 flex -translate-x-1/2 flex-row items-center gap-20 rounded-full border-2 border-black bg-[#FFC567] px-10 py-5 shadow-brutalism-md"
