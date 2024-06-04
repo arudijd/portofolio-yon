@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set NUXT_APP_BASE_URL
+        run: echo "NUXT_APP_BASE_URL=/portofolio-yon/" >> $GITHUB_ENV
+
       - name: Generate static files
         run: npm run generate
 
